@@ -133,6 +133,19 @@ body {
   padding-left: 0px;
 }
 
+.contact-link:hover svg {
+  fill: var(--activecolor);
+}
+.contact-link:focus svg {
+  fill: var(--activecolor);
+}
+.contact-mail ,
+.contact-phone {
+  margin-right: 10px;
+  fill: var(--maintextcolor);
+}
+
+
 /* logo */
 .logo {
   color: var(--activecolor);
@@ -171,7 +184,7 @@ body {
 
 .contact-link {
   color: var(--maintextcolor);
-
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
