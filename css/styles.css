@@ -323,15 +323,29 @@ body {
 }
 .special-type {
   width: 270px;
+  /* margin-top: 94px; */
 }
 .special-item {
   
-  color: var(--maintextcolor);
+color: var(--maintextcolor);
   
-  font-size: 14px;
-  line-height: 1.7;
-  margin: 0px;
+font-size: 14px;
+line-height: 1.7;
+margin: 0px;
 }
+ .special-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(245, 244, 250, 1);
+border-radius: 4px;
+margin-bottom: 30px;
+border-radius: 4px;
+} 
+
+
+ 
+ 
 
 /* about work */
 
