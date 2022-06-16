@@ -418,17 +418,43 @@ border-radius: 4px;
   text-align: center;
   margin: 0px 0px 10px 0px;
 }
+
 .personal-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 0px;
+  margin: 0px 0px 16px 0px;
 }
 
-.team-card {
+/* .team-card {
   padding-bottom: 30px;
   padding-top: 30px;
+} */
+.team-card {
+  padding: 30px 32px;
 }
+.team-contact-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.team-contact-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.team {
+  display: flex;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+.team-link {
+fill: rgba(175, 177, 184, 1);
+}
+
+
 
 /* portfolio exemples */
 .button-filter {
