@@ -185,14 +185,14 @@ body {
 
 .contact-link {
   color: var(--maintextcolor);
-  
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   align-items: center;
 }
 
@@ -237,7 +237,6 @@ margin-bottom: 0px;
 }
 
 .client-item {
-  display: block;
   margin-right: 30px;
 }
 
@@ -343,12 +342,7 @@ color: var(--whitetextcolor);
   margin-bottom: 0px;
 }
 .footer-contact-item {
-  display: flex;
-  justify-content: space-between;
-  background-color: transparent;
-  border-radius: 50%;
   margin-right: 10px;
-  background-color: rgba(255, 255, 255, .1);
 }
 .footer-contact-item:last-child {
   margin-right: 0px;
@@ -563,9 +557,7 @@ border-radius: 4px;
 }
 
 .team-contact-item {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  
 }
 
 .team {
@@ -579,6 +571,7 @@ border-radius: 4px;
   justify-content: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   background-color: transparent;
 }
 .team-link {
