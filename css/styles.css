@@ -210,8 +210,12 @@ body {
   fill: var(--activecolor);
 }
 
-.site-contact .contact-link:hover,
-.site-contact .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--activecolor);
+}
+.site-contact:hover,
+.site-contact:focus {
   color: var(--activecolor);
 }
 .contact-header {
@@ -335,6 +339,9 @@ fill: var(--activecolor);
 .footer-contact-item:hover,
 .footer-contact-item:focus {
   color: var(--activecolor);
+  background-color: var(--activecolor);
+  border-radius: 50%;
+  border-color: var(--activecolor);
 }
 /* ================================== */
 .footer-join {
