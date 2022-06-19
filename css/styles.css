@@ -97,8 +97,11 @@ body {
 }
 
 .section {
+  max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* header */
@@ -177,6 +180,10 @@ body {
 .contact-link:focus {
   color: var(--activecolor);
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--activecolor);
+}
 .site-nav .nav-link.current {
   color: var(--activecolor);
 }
@@ -190,10 +197,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+  align-items: center;
   /* padding-top: 32px;
   padding-bottom: 32px; */
-  align-items: center;
+  
 }
 
 .site-contact .contact-link:hover,
@@ -315,6 +322,10 @@ fill: var(--activecolor);
 .footer-contact:focus {
   color: var(--activecolor);
 }
+.footer-contact-item:hover,
+.footer-contact-item:focus {
+  color: var(--activecolor);
+}
 /* ================================== */
 .footer-join {
   margin-left: 70px;
@@ -361,6 +372,7 @@ color: var(--whitetextcolor);
   justify-content: center;
   width: 44px;
   height: 44px;
+  /* border-radius: 50%; */
 }
 
 .footer-icon-link {
@@ -467,6 +479,7 @@ border-radius: 4px;
 
 .about-work {
   padding-top: 0px;
+  /* padding-bottom: 0%; */
 }
 .work-title {
   color: var(--secondtextcolor);
@@ -557,7 +570,7 @@ border-radius: 4px;
 }
 
 .team-contact-item {
-  
+border-radius: 50%;
 }
 
 .team {
@@ -571,7 +584,7 @@ border-radius: 4px;
   justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: transparent;
 }
 .team-link {
