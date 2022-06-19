@@ -79,8 +79,9 @@ ul {
 .button.secondary:hover {
   color: var(--whitetextcolor);
   background-color: var(--activecolor);
+  background-color: var(--activecolor);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 /* body */
 body {
   color: var(--maintextcolor);
@@ -201,6 +202,12 @@ body {
   /* padding-top: 32px;
   padding-bottom: 32px; */
   
+}
+.contact-link:hover svg {
+  fill: var(--activecolor);
+}
+.contact-link:focus svg {
+  fill: var(--activecolor);
 }
 
 .site-contact .contact-link:hover,
