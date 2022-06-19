@@ -256,6 +256,7 @@ margin-bottom: 0px;
 
 .client-item {
   margin-right: 30px;
+
 }
 
 .client-item:last-child {
@@ -272,7 +273,6 @@ margin-bottom: 0px;
   border-radius: 4px;
   
 }
-
 .client-site,
 .client-picture {
   fill: rgba(175, 177, 184, 1);
@@ -289,8 +289,6 @@ fill: var(--activecolor);
 .client-site:focus {
   border-color: var(--activecolor) ;
 }
-
-
 /* footer styles */
 .footer {
   max-width: 1600px;
@@ -336,8 +334,8 @@ fill: var(--activecolor);
 .footer-contact:focus {
   color: var(--activecolor);
 }
-.footer-contact-item:hover,
-.footer-contact-item:focus {
+.footer-social:hover,
+.footer-social:focus {
   color: var(--activecolor);
   background-color: var(--activecolor);
   border-radius: 50%;
@@ -376,12 +374,12 @@ color: var(--whitetextcolor);
   margin-right: 0px;
 }
 
-.footer-contact-item:hover,
+/* .footer-contact-item:hover,
 .footer-contact-item:focus {
   background-color: var(--activecolor);
   border-radius: 50%;
   border-color: var(--activecolor);
-}
+} */
 
 .footer-social {
   display: flex;
@@ -604,17 +602,19 @@ border-radius: 4px;
 .team-link {
 fill: rgba(175, 177, 184, 1);
 }
-.team-contact-item:hover,
-.team-contact-item:focus {
+
+
+.team-social:hover,
+.team-social:focus {
   background-color: var(--activecolor);
   border-radius: 50%;
   border-color: var(--activecolor);
 }
 
-.team-contact-item:hover svg {
+.team-social:hover svg {
 fill: rgba(255, 255, 255, 1);
 }
-.team-contact-item:focus svg {
+.team-social:focus svg {
 fill: rgba(255, 255, 255, 1);
 }
 
