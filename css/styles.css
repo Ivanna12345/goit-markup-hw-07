@@ -743,3 +743,55 @@ fill: rgba(255, 255, 255, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   }
+/* ------------modal ------------*/
+.backdrop { 
+  position: fixed;
+  top:0px;
+  width: 100vw;
+  height: 100vh;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: opacity var(--duration) var(--timing-function),
+  visibility var(--duration) var(--timing-function),
+  transform 500ms var(--timing-function);
+  
+}
+.modal {
+position: relative;
+width: 528px;
+min-height: 581px;
+background-color:var(--whitetextcolor);
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+
+}
+.modal-close-btn {
+position: absolute;
+top: 8px;
+right: 8px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+
+background-color: var(--primary-white-color);
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+cursor: pointer;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+  }
