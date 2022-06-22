@@ -76,6 +76,10 @@ ul {
   border-radius: 4px;
   background: rgba(245, 244, 250, 1);
   border: none;
+
+  transition: color var(--duration) var(--timing-function),
+  background-color var(--duration) var(--timing-function),
+  box-shadow var(--duration) var(--timing-function);
 }
 .button.secondary:focus,
 .button.secondary:hover {
@@ -170,7 +174,7 @@ body {
 .contact-phone {
   margin-right: 10px;
   fill: var(--maintextcolor);
-  /* fill: red; */
+  transition: fill var(--duration) var(--timing-function);
 }
 
 
@@ -199,10 +203,12 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color var(--duration) var(--timing-function);
 }
 .contact-link:hover,
 .contact-link:focus {
   color: var(--activecolor);
+  transition: color var(--duration) var(--timing-function);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -222,9 +228,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   align-items: center;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-  
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color var(--duration) var(--timing-function);
 }
 .contact-link:hover svg {
   fill: var(--activecolor);
@@ -294,11 +301,12 @@ margin-bottom: 0px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  
+  transition: border-color var(--duration) var(--timing-function);
 }
-.client-site,
+
 .client-picture {
   fill: rgba(175, 177, 184, 1);
+  transition: fill var(--duration) var(--timing-function);
 }
 
 .client-site:hover svg {
@@ -335,6 +343,8 @@ fill: var(--activecolor);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+
+  transition: color var(--duration) var(--timing-function);
 }
 .adress-list {
   padding: 0px;
@@ -352,10 +362,17 @@ fill: var(--activecolor);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  transition: color var(--duration) var(--timing-function);
 }
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--activecolor);
+}
+.footer-contact-item:hover,
+.footer-contact-item:focus {
+  background-color: var(--activecolor);
+  border-radius: 50%;
+  border-color: var(--activecolor);
 }
 .footer-social:hover,
 .footer-social:focus {
@@ -391,18 +408,32 @@ color: var(--whitetextcolor);
   margin-bottom: 0px;
 }
 .footer-contact-item {
+
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 50%;
   margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--duration) var(--timing-function);
 }
 .footer-contact-item:last-child {
   margin-right: 0px;
 }
 
-/* .footer-contact-item:hover,
+.footer-contact-item:hover,
 .footer-contact-item:focus {
   background-color: var(--activecolor);
   border-radius: 50%;
   border-color: var(--activecolor);
-} */
+} 
+
+/* .footer-social:hover,
+.footer-social:focus {
+  background-color: var(--activecolor);
+  border-radius: 50%;
+  border-color: var(--activecolor);
+}  */
 
 .footer-social {
   display: flex;
@@ -410,7 +441,7 @@ color: var(--whitetextcolor);
   justify-content: center;
   width: 44px;
   height: 44px;
-  /* border-radius: 50%; */
+ 
 }
 
 .footer-icon-link {
@@ -507,6 +538,8 @@ background-color: rgba(245, 244, 250, 1);
 border-radius: 4px;
 margin-bottom: 30px;
 border-radius: 4px;
+width: 270px;
+height: 120px;
 } 
 
 
@@ -516,7 +549,7 @@ border-radius: 4px;
 
 .about-work {
   padding-top: 0px;
-  /* padding-bottom: 0%; */
+ 
 }
 .work-title {
   color: var(--secondtextcolor);
@@ -541,12 +574,8 @@ border-radius: 4px;
 /* our team */
 .our-team {
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-.our-team-section {
-  background-color: var(--third-background)
-}
+
 .team {
   display: flex;
   padding-inline-start: 0px;
@@ -620,9 +649,12 @@ border-radius: 4px;
   height: 44px;
   border-radius: 50px;
   background-color: transparent;
+
+  transition: background-color var(--duration) var(--timing-function);
 }
 .team-link {
 fill: rgba(175, 177, 184, 1);
+transition: fill var(--duration) var(--timing-function);
 }
 
 
@@ -692,7 +724,7 @@ fill: rgba(255, 255, 255, 1);
 .example-link {
   display: block;
   color: var(--maintextcolor);
-  color: var(--maintextcolor);
+
   transition: box-shadow var(--duration) var(--timing-function);
   }
   
