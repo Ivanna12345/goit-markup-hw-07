@@ -432,18 +432,17 @@ color: var(--whitetextcolor);
 .footer-contact-item:last-child {
   margin-right: 0px;
 }
-
 .footer-contact-item:hover,
 .footer-contact-item:focus {
   background-color: var(--activecolor);
   border-radius: 50%;
   border-color: var(--activecolor);
-} 
+}
 
-.footer-contact-list .footer-social:hover,
+/* .footer-contact-list .footer-social:hover,
 .footer-contact-list .footer-social:focus {
   background-color: var(--accent-color);
-}
+} */
 
 
 
