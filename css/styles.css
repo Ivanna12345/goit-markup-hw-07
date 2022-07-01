@@ -920,7 +920,9 @@ border-radius: 50%;
 cursor: pointer;
 
 }
-
+.modal-close-btn:hover svg {
+  fill: var(--activecolor);
+}
 
 .modal-title {
 margin-top: 0px;
@@ -932,7 +934,9 @@ line-height: 1.15;
 letter-spacing: 0.03em;
 color: var(--secondtextcolor);
 }
-
+.form-item {
+  margin-bottom: 20px;
+}
 
 
 .form-item:last-of-type {
