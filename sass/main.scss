@@ -1,18 +1,19 @@
-{
-    "liveSassCompile.settings.formats": [
-      {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/css"
-      },
-      {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "/css"
-      }
-    ],
-    "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-    "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
-  }
+//Variables style
+@import './utils/variables';
+
+//Common styles
+@import './base/common';
+@import './components/_logo';
+@import './components/button';
+
+//Component styles
+@import './components/modal';
+@import './components/modal-form';
+@import './components/header';
+@import './components/hero';
+@import './components/special';
+@import './components/about-work';
+@import './components/our-team';
+@import './components/our-clients';
+@import './components/work-exemple';
+@import './components/footer';
