@@ -5,49 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
    
   </head>
   <body>
     <!--header-->
-    <header class="header-container">
-      <div class="container header-item">
-        <a href="./index.html" class="logo header-logo"
-          >Web<span class="accent">Studio</span></a
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" class="logo logo__header"
+          >Web<span class="logo__text-header">Studio</span></a
         >
         <nav>
-          <ul class="site-nav nav-list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link">Студия</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">Студия</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link current">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a href="./contact.html" class="nav-link">Контакты</a>
+            <li class="nav__item">
+              <a href="./contact.html" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-header">
-          <li class="contact-item">
-            <a class="contact-link" href="mailto:info@devstudio.com">
-            <svg class="contact-mail" width="16" height="12" >
+        <ul class="contact">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+            <svg class="contact__point" width="16" height="12" >
             <use href="./images/symbol-defs.svg#icon-envelope">
             </use>
           </svg>
           info@devstudio.com
           </a>
         </li>
-          <li class="contact-item">
-            <a class="contact-link" href="tel:+380961111111">
-            <svg class="contact-phone" width="10" height="16" >
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+380961111111">
+            <svg class="contact__point" width="10" height="16" >
             <use href="./images/symbol-defs.svg#icon-smartphone">
             </use>
           </svg>
@@ -62,33 +60,33 @@
         <div class="container">
           <!--h1 hide css-->
           <h1 class="visually-hidden">work examples</h1>
-          <ul class="button-list">
-            <li class="button-item">
-              <button class="button secondary" type="button">Все</button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button class="button button__two" type="button">Все</button>
             </li>
-            <li class="button-item">
-              <button class="button secondary" type="button">Веб-сайты</button>
+            <li class="filter__item">
+              <button class="button button__two" type="button">Веб-сайты</button>
             </li>
-            <li class="button-item">
-              <button class="button secondary" type="button">Приложения</button>
+            <li class="filter__item">
+              <button class="button button__two" type="button">Приложения</button>
             </li>
-            <li class="button-item">
-              <button class="button secondary" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="button button__two" type="button">Дизайн</button>
             </li>
-            <li class="button-item">
-              <button class="button secondary" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="button button__two" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="example-list">
-            <li class="example-item">
-              <a class="example-link" href="./">
-              <div class="example-box">
+          <ul class="example__list">
+            <li class="example__item">
+              <a class="example__link" href="./">
+              <div class="example__box">
                 <img
                   src="./images/tehno.jpg"
                   alt="Технокряк"
                   width="370"
                 />
-                <div class="examples-overlay">
+                <div class="example__overlay">
                   <p>
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
@@ -97,21 +95,21 @@
                   </p>
                 </div>
               </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title">Технокряк</h2>
-                <p class="exemple-filter">Веб-сайт</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title">Технокряк</h2>
+                <p class="exemple__filter">Веб-сайт</p>
               </div>
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-              <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+              <div class="example__box">
                 <img
                   src="./images/poster.jpg"
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
                 />
-                <div class="examples-overlay">
+                <div class="example__overlay">
                   <p>
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
@@ -120,21 +118,21 @@
                   </p>
                 </div>
               </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title">Постер New Orlean vs Golden Star</h2>
-                <p class="exemple-filter">Дизайн</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title">Постер New Orlean vs Golden Star</h2>
+                <p class="exemple__filter">Дизайн</p>
               </div>
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-              <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+              <div class="example__box">
               <img
                 src="./images/seafood.jpg"
                 alt="Ресторан Seafood"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -144,21 +142,21 @@
               </div>
              </div>
               <div class="exemple-card">
-                <h2 class="exemples-title">Ресторан Seafood</h2>
-                <p class="exemple-filter">Приложение</p>
+                <h2 class="exemple__title">Ресторан Seafood</h2>
+                <p class="exemple__filter">Приложение</p>
               </div>
            
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-              <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+              <div class="example__box">
               <img
                 src="./images/headphones.jpg"
                 alt="Проект Prime"
                 width="370"
               />
-           <div class="examples-overlay">
+           <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -167,22 +165,22 @@
                 </p>
               </div> 
              </div>
-             <div class="exemple-card">
-                <h2 class="exemples-title">Проект Prime</h2>
-                <p class="exemple-filter">Маркетинг</p>
+             <div class="exemple__card">
+                <h2 class="exemple__title">Проект Prime</h2>
+                <p class="exemple__filter">Маркетинг</p>
               </div>
             
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-              <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+              <div class="example__box">
               <img
                 src="./images/boxes.jpg"
                 alt="Проект Boxes"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -191,22 +189,22 @@
                 </p>
               </div>
             </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title">Проект Boxes</h2>
-                <p class="exemple-filter">Приложение</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title">Проект Boxes</h2>
+                <p class="exemple__filter">Приложение</p>
               </div>
             
             </a>
             </li>
-            <li class="example-item">
-            <a class="example-link" href="./">
-            <div class="example-box">
+            <li class="example__item">
+            <a class="example__link" href="./">
+            <div class="example__box">
               <img
                 src="./images/monitor.jpg"
                 alt="Inspiration has no Borders"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -215,24 +213,24 @@
                 </p>
               </div>
             </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title" lang="en">
+              <div class="exemple__card">
+                <h2 class="exemple__title" lang="en">
                   Inspiration has no Borders
                 </h2>
-                <p class="exemple-filter">Веб-сайт</p>
+                <p class="exemple__filter">Веб-сайт</p>
               </div>
               
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-            <div class="example-box"> 
+            <li class="example__item">
+              <a class="example__link" href="./">
+            <div class="example__box"> 
               <img
                 src="./images/limited.jpg"
                 alt="Издание Limited Edition"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -241,22 +239,22 @@
                 </p>
               </div>
             </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title">Издание Limited Edition</h2>
-                <p class="exemple-filter">Дизайн</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title">Издание Limited Edition</h2>
+                <p class="exemple__filter">Дизайн</p>
               </div>
               
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-            <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+            <div class="example__box">
               <img
                 src="./images/lab.jpg"
                 alt="Проект LAB"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -265,22 +263,22 @@
                 </p>
               </div>
             </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title">Проект LAB</h2>
-                <p class="exemple-filter">Маркетинг</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title">Проект LAB</h2>
+                <p class="exemple__filter">Маркетинг</p>
               </div>
             
             </a>
             </li>
-            <li class="example-item">
-              <a class="example-link" href="./">
-                <div class="example-box">
+            <li class="example__item">
+              <a class="example__link" href="./">
+                <div class="example__box">
               <img
                 src="./images/growing.jpg"
                 alt="Growing Business"
                 width="370"
               />
-              <div class="examples-overlay">
+              <div class="example__overlay">
                 <p>
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю
@@ -289,9 +287,9 @@
                 </p>
                 </div>
               </div>
-              <div class="exemple-card">
-                <h2 class="exemples-title" lang="en">Growing Business</h2>
-                <p class="exemple-filter">Приложение</p>
+              <div class="exemple__card">
+                <h2 class="exemple__title" lang="en">Growing Business</h2>
+                <p class="exemple__filter">Приложение</p>
               </div>
             
             </a>
@@ -302,57 +300,56 @@
     </main>
     <!--footer hw-->
     <footer class="footer">
-      <div class="container footer-block">
-        <div>
-        <a class="logo footer-logo" href="./index.html"
-          >Web<span class="accentwhite">Studio</span></a
+      <div class="container footer__block">
+        <div class="logo__box">
+        <a class="logo logo__footer" href="./index.html"
+          >Web<span class="logo__text-footer">Studio</span></a
         >
         <!-- Список контактов -->
         <address>
-          <ul class="adress-list">
-            <li class="adress-item">
+          <ul >
+            <li class="footer__item">
               <a
-                class="footer-address"
+                class="footer__address"
                 href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
-                target="_blank"
-                rel="noreferrer noopener"
-                >г.Киев, пр-т Леси Украинки, 26</a
+                
+               >г.Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li class="address-item">
-              <a class="footer-contact" href="mailto:info@devstudio.com"
+            <li class="footer__item">
+              <a class="footer__contact" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="address-item">
-              <a class="footer-contact" href="tel:+380961111111"
+              <a class="footer__contact" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </address>
       </div>
-        <div class="footer-join">
-          <h2 class="footer-join-title">присоеденяйтесь</h2>
-                <ul class="footer-contact-list">
-                  <li class="footer-contact-item"><a class="footer-social" href="twitter.com"><svg class="footer-icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-                  <li class="footer-contact-item"><a class="footer-social" href="facebook.com"><svg class="footer-icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-                  <li class="footer-contact-item"><a class="footer-social" href="linkedin.com"><svg class="footer-icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook-1"></use></svg></a></li>
-                  <li class="footer-contact-item"><a class="footer-social" href="instagram.com"><svg class="footer-icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a></li>
+        <div class="footer__join">
+          <h2 class="footer__join-title">присоеденяйтесь</h2>
+                <ul class="footer__contact-list">
+                  <li class="footer__contact-item"><a class="footer__social" href="twitter.com"><svg class="footer__icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+                  <li class="footer__contact-item"><a class="footer__social" href="facebook.com"><svg class="footer__icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+                  <li class="footer__contact-item"><a class="footer__social" href="linkedin.com"><svg class="footer__icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook-1"></use></svg></a></li>
+                  <li class="footer__contact-item"><a class="footer__social" href="instagram.com"><svg class="footer__icon-link" width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a></li>
                 </ul>
         </div>
-        <form class="subscribe-form" name="subscribe" autocomplete="off">
-          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-          <div class="subscribe-box">
+        <form class="subscribe__form" name="subscribe" autocomplete="off">
+          <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
+          <div class="subscribe__box">
             <input
-              class="subscribe-input"
+              class="subscribe__input"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-            <button class="subscribe-button primary" type="submit">
+            <button class="subscribe__button button__one" type="submit">
               <span>Подписаться</span>
-              <svg class="subscribe-svg" width="24" height="24">
+              <svg class="subscribe-_icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#send"></use>
               </svg>
             </button>
