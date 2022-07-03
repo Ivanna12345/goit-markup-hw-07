@@ -13,7 +13,7 @@
     transform: scale(1);
     transition: opacity var(--duration) var(--timing-function),
     visibility var(--duration) var(--timing-function),
-    transform 500ms var(--timing-function);
+    transform var (--modal-transition-duration) var (--timing-function);
   }
   .is-hidden {
     visibility: hidden;

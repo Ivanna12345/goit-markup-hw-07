@@ -10,6 +10,7 @@
   --main-font: Roboto;
   --duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --modal-transition-duration: 500ms;
 }
 
 a {
@@ -150,7 +151,7 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   transform: scale(1);
-  transition: opacity var(--duration) var(--timing-function), visibility var(--duration) var(--timing-function), transform 500ms var(--timing-function);
+  transition: opacity var(--duration) var(--timing-function), visibility var(--duration) var(--timing-function), transform var --modal-transition-duration var --timing-function;
 }
 
 .is-hidden {
@@ -292,7 +293,7 @@ body {
 .checkbox__input:checked + .checkbox__icon {
   border: transparent;
   background-color: #2196f3;
-  background-image: url("../images/icons/icon-check.svg");
+  background-image: url("../images/icon check.svg");
   background-repeat: no-repeat;
 }
 
