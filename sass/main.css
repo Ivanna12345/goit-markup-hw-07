@@ -730,7 +730,7 @@ body {
   pointer-events: auto;
 }
 .example__item:focus .example__overlay {
-  transform: translateY(-100% 0%);
+  transform: translateY(-100%);
   visibility: visible;
   pointer-events: auto;
 }
