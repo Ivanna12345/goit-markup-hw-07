@@ -185,7 +185,6 @@ body {
 .modal__button:hover .button__modal-close {
   fill: var(--activecolor);
 }
-
 .modal__button:focus .button__modal-close {
   fill: var(--activecolor);
 }

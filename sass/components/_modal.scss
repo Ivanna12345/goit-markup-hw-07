@@ -53,10 +53,9 @@
     &__button:focus .button__modal-close {
     fill: var(--activecolor);
     }
-   
-    }
+
+    
     &__title {
-  
     display: block;
     margin-top: 0px;
     margin-bottom: 12px;
@@ -68,3 +67,4 @@
     color: var(--secondtextcolor);
   }
   
+}
