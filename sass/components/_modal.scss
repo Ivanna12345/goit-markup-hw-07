@@ -53,7 +53,7 @@
     // &__button:focus .button__modal-close {
     // fill: var(--activecolor);
     // }
-    &__button:hover svg {
+    &__button__modal-close:hover {
       fill: var(--activecolor);
     }
     &__title {
