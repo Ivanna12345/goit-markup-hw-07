@@ -709,18 +709,13 @@ body {
 }
 .example__overlay {
   position: absolute;
-  top:100%;
+  top: 100%;
   left: 0;
-  /* transform: translateY(100%);
-  transition: transform var(--duration) var(--timing-function); */
-  transition: transform  var(--timing-function) var(--duration) , 
-  visibility  var(--timing-function) var(--duration);
-    padding: 63px 24px;
+  transition: transform var(--timing-function) var(--duration), visibility var(--timing-function) var(--duration);
   padding: 63px 24px;
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  /* opacity: 0; */
   visibility: hidden;
   pointer-events: none;
   font-weight: 400;
@@ -735,7 +730,7 @@ body {
   pointer-events: auto;
 }
 .example__item:focus .example__overlay {
-  transform: translateY(-100%);
+  transform: translateY(-100% 0%);
   visibility: visible;
   pointer-events: auto;
 }
