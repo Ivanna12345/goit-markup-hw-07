@@ -44,10 +44,10 @@
     border-radius: 50%;
     cursor: pointer;
      }
-    &__button:hover .button__modal-close {
+    &__button:hover .button__modal-close svg {
     fill: var(--activecolor)
      }
-    &__button:focus .button__modal-close {
+    &__button:focus .button__modal-close svg {
     fill: var(--activecolor);
     }
     &__title {
