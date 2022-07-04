@@ -44,10 +44,10 @@
     border-radius: 50%;
     cursor: pointer;
      }
-    &__button:hover .button__modal-close svg {
+    &__button:hover .button__modal-close {
     fill: var(--activecolor)
      }
-    &__button:focus .button__modal-close svg {
+    &__button:focus .button__modal-close {
     fill: var(--activecolor);
     }
     &__title {
@@ -61,5 +61,4 @@
     letter-spacing: 0.03em;
     color: var(--secondtextcolor);
   }
-  
 }

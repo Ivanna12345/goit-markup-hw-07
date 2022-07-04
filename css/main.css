@@ -182,10 +182,10 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.modal__button:hover .button__modal-close svg {
+.modal__button:hover .button__modal-close {
   fill: var(--activecolor);
 }
-.modal__button:focus .button__modal-close svg {
+.modal__button:focus .button__modal-close {
   fill: var(--activecolor);
 }
 .modal__title {
