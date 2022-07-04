@@ -182,7 +182,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.modal__button:hover svg {
+.modal__button__modal-close:hover {
   fill: var(--activecolor);
 }
 .modal__title {
