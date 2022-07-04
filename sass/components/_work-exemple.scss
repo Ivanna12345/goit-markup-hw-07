@@ -94,7 +94,7 @@
     pointer-events: auto;
   }
   &__item:focus .example__overlay {
-    transform: translateY(-100%0%);
+    transform: translateY(-100%);
     visibility: visible;
     pointer-events: auto; 
   }
