@@ -55,7 +55,10 @@
   &__join-title {
     margin-bottom: 20px;
     text-align: left;
-  
+    font-family: var(--main-font),sans-serif;
+    
+    font-size: 14px;
+    font-style: normal;
     font-weight: bold;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -110,6 +113,8 @@
     text-transform: uppercase;
     color: var(--whitetextcolor);
     margin-bottom: 20px;
+    font-size: 14px;
+    font-style: normal;
   }
   &__box {
     display: flex;

@@ -185,7 +185,7 @@ body {
 .modal__button:hover .button__modal-close {
   fill: var(--activecolor);
 }
-.modal__button:focus .button__modal-close {
+.modal__button:hover .button__modal-close {
   fill: var(--activecolor);
 }
 .modal__title {
@@ -786,6 +786,9 @@ body {
 .footer__join-title {
   margin-bottom: 20px;
   text-align: left;
+  font-family: var(--main-font), sans-serif;
+  font-size: 14px;
+  font-style: normal;
   font-weight: bold;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -839,6 +842,8 @@ body {
   text-transform: uppercase;
   color: var(--whitetextcolor);
   margin-bottom: 20px;
+  font-size: 14px;
+  font-style: normal;
 }
 .subscribe__box {
   display: flex;
